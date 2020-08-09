@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{59A54287-7074-49AA-A008-D5EECDE28B03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{35A9A1DB-39B3-408A-9E09-C10926C46049}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrademarkLibrary", "Trademarks\TrademarkLibrary.csproj", "{244D38A1-1E45-474B-BC8F-17643BCBACE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59A54287-7074-49AA-A008-D5EECDE28B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A54287-7074-49AA-A008-D5EECDE28B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A54287-7074-49AA-A008-D5EECDE28B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A54287-7074-49AA-A008-D5EECDE28B03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{244D38A1-1E45-474B-BC8F-17643BCBACE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{244D38A1-1E45-474B-BC8F-17643BCBACE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{244D38A1-1E45-474B-BC8F-17643BCBACE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{244D38A1-1E45-474B-BC8F-17643BCBACE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D545C02-0133-4F38-9D1F-4DA3BD5E4DC6}
+	EndGlobalSection
+EndGlobal
